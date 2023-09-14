@@ -24,6 +24,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+    width: 100%;
 	line-height: 1;
 }
 ol, ul {
@@ -45,17 +46,28 @@ table {
 .Menu{
     background-color: #151C88;
     width: 100%;
-    height: 20vh;
+    max-height: 20%;
+    text-align: center;
 }
 
-.Menu div{
-    max-height: 100%;
-    background-color: aliceblue;
+.Menu img{
+    
+    max-height: 130px;
 }
+
 
 .Tienda{
     background-color: #ED8634;
-    max-width: 20%;
+    max-width: 18%;
+    border: 1px solid black;
+    margin: 2%;
+}
+
+.Tienda h1{
+    text-align: center;
+    font-size: 3rem;
+    margin: 1.5rem;
+    color: white;
 }
 
 .Redes{
